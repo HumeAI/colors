@@ -1,1 +1,1 @@
-export { dyadicColors } from "./generated/colors";
+export { expressionColors } from "./generated/colors";

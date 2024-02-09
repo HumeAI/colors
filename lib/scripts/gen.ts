@@ -73,7 +73,7 @@ const variableStatement = sourceFile.addVariableStatement({
   declarationKind: VariableDeclarationKind.Const,
   declarations: [
     {
-      name: "dyadicColors",
+      name: "expressionColors",
       initializer: `${JSON.stringify(Object.fromEntries(colors.entries()))} as const`,
     },
   ],
