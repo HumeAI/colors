@@ -1,4 +1,4 @@
-declare const dyadicColors: {
+declare const expressionColors: {
     readonly Admiration: {
         readonly hex: "#ffc58f";
         readonly gl: readonly [1, 0.7725490196078432, 0.5607843137254902, 1];
@@ -331,4 +331,4 @@ declare const dyadicColors: {
     };
 };
 
-export { dyadicColors };
+export { expressionColors };

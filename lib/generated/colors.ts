@@ -1,6 +1,6 @@
 // ⚠️ This is a generated file ⚠️
 // DO NOT EDIT DIRECTLY
-export const dyadicColors = {
+export const expressionColors = {
   Admiration: {
     hex: "#ffc58f",
     gl: [1, 0.7725490196078432, 0.5607843137254902, 1],

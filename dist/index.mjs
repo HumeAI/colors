@@ -1,5 +1,5 @@
 // lib/generated/colors.ts
-var dyadicColors = {
+var expressionColors = {
   Admiration: {
     hex: "#ffc58f",
     gl: [1, 0.7725490196078432, 0.5607843137254902, 1],
@@ -332,6 +332,6 @@ var dyadicColors = {
   }
 };
 export {
-  dyadicColors
+  expressionColors
 };
 //# sourceMappingURL=index.mjs.map

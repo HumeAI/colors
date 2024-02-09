@@ -20,12 +20,12 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // lib/index.ts
 var lib_exports = {};
 __export(lib_exports, {
-  dyadicColors: () => dyadicColors
+  expressionColors: () => expressionColors
 });
 module.exports = __toCommonJS(lib_exports);
 
 // lib/generated/colors.ts
-var dyadicColors = {
+var expressionColors = {
   Admiration: {
     hex: "#ffc58f",
     gl: [1, 0.7725490196078432, 0.5607843137254902, 1],
@@ -359,6 +359,6 @@ var dyadicColors = {
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  dyadicColors
+  expressionColors
 });
 //# sourceMappingURL=index.js.map
