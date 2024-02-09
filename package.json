@@ -1,0 +1,33 @@
+{
+  "name": "dyadic-emotion-colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "ts-node ./lib/scripts/gen.ts",
+    "build": "pnpm gen && tsup"
+  },
+  "files": [
+    "package.json",
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "kdljs": "^0.2.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/chroma-js": "^2.4.4",
+    "chroma-js": "^2.4.2",
+    "prettier": "^3.2.5",
+    "ts-morph": "^21.0.1",
+    "ts-node": "^10.9.2"
+  }
+}
