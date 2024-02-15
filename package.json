@@ -16,7 +16,7 @@
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.17",
     "kdljs": "^0.2.0",
