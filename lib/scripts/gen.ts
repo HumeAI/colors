@@ -8,6 +8,7 @@ import fs from "fs";
 const rootDir = path.resolve(__dirname, "..", "..");
 
 const generatedFile = path.resolve(rootDir, "lib", "generated", "colors.ts");
+const jsonFile = path.resolve(rootDir, "lib", "generated", "colors.json");
 
 function createSchema() {
   const fileString = fs.readFileSync(
@@ -69,12 +70,14 @@ sourceFile.insertStatements(
 `,
 );
 
+const colorsAsJsonString = JSON.stringify(Object.fromEntries(colors.entries()));
+
 const variableStatement = sourceFile.addVariableStatement({
   declarationKind: VariableDeclarationKind.Const,
   declarations: [
     {
       name: "expressionColors",
-      initializer: `${JSON.stringify(Object.fromEntries(colors.entries()))} as const`,
+      initializer: `${colorsAsJsonString} as const`,
     },
   ],
 });
@@ -86,3 +89,5 @@ const rawFile = sourceFile.getFullText();
 prettier.format(rawFile, { parser: "typescript" }).then((formatted) => {
   fs.writeFileSync(generatedFile, formatted);
 });
+
+fs.writeFileSync(jsonFile, colorsAsJsonString);
