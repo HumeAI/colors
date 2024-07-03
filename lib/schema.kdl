@@ -16,6 +16,7 @@ dyadic-colors {
     Contempt                    "#76842D"   language=true   face=false  burst=false prosody=false
     Contentment                 "#E5C6B4"   language=true   face=true   burst=true  prosody=true
     Craving                     "#54591C"   language=true   face=true   burst=true  prosody=true
+    Desire                      "#AA0D59"   language=true   face=true   burst=true  prosody=true
     Determination               "#FF5C00"   language=true   face=true   burst=true  prosody=true
     Disappointment              "#006C7C"   language=true   face=true   burst=true  prosody=true
     Disapproval                 "#FFFFFF"   language=true   face=false  burst=false prosody=false
@@ -46,9 +47,7 @@ dyadic-colors {
     Sadness                     "#305575"   language=true   face=true   burst=true  prosody=true
     Sarcasm                     "#FFFFFF"   language=true   face=false  burst=false prosody=false
     Satisfaction                "#A6DDAF"   language=true   face=true   burst=true  prosody=true
-    "Sexual Desire"             "#AA0D59"   language=true   face=true   burst=true  prosody=true
     Shame                       "#8A6262"   language=true   face=true   burst=true  prosody=true
-    Surprise                    "#70E63A"   language=true   face=true   burst=true  prosody=true
     "Surprise (negative)"       "#70E63A"   language=true   face=true   burst=true  prosody=true
     "Surprise (positive)"       "#7AFFFF"   language=true   face=true   burst=true  prosody=true
     Sympathy                    "#7F88E0"   language=true   face=true   burst=true  prosody=true

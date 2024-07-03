@@ -101,6 +101,12 @@ declare const expressionColors: {
         readonly rgba: readonly [84, 89, 28, 1];
         readonly hsl: readonly [64.91803278688523, 0.5213675213675214, 0.22941176470588234, 1];
     };
+    readonly Desire: {
+        readonly hex: "#aa0d59";
+        readonly gl: readonly [0.6666666666666666, 0.050980392156862744, 0.34901960784313724, 1];
+        readonly rgba: readonly [170, 13, 89, 1];
+        readonly hsl: readonly [330.95541401273886, 0.8579234972677594, 0.3588235294117647, 1];
+    };
     readonly Determination: {
         readonly hex: "#ff5c00";
         readonly gl: readonly [1, 0.3607843137254902, 0, 1];
@@ -281,23 +287,11 @@ declare const expressionColors: {
         readonly rgba: readonly [166, 221, 175, 1];
         readonly hsl: readonly [129.8181818181818, 0.4471544715447155, 0.7588235294117647, 1];
     };
-    readonly "Sexual Desire": {
-        readonly hex: "#aa0d59";
-        readonly gl: readonly [0.6666666666666666, 0.050980392156862744, 0.34901960784313724, 1];
-        readonly rgba: readonly [170, 13, 89, 1];
-        readonly hsl: readonly [330.95541401273886, 0.8579234972677594, 0.3588235294117647, 1];
-    };
     readonly Shame: {
         readonly hex: "#8a6262";
         readonly gl: readonly [0.5411764705882353, 0.3843137254901961, 0.3843137254901961, 1];
         readonly rgba: readonly [138, 98, 98, 1];
         readonly hsl: readonly [0, 0.16949152542372875, 0.4627450980392157, 1];
-    };
-    readonly Surprise: {
-        readonly hex: "#70e63a";
-        readonly gl: readonly [0.4392156862745098, 0.9019607843137255, 0.22745098039215686, 1];
-        readonly rgba: readonly [112, 230, 58, 1];
-        readonly hsl: readonly [101.16279069767442, 0.7747747747747747, 0.5647058823529412, 1];
     };
     readonly "Surprise (negative)": {
         readonly hex: "#70e63a";
